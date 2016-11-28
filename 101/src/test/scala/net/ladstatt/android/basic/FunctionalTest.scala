@@ -5,6 +5,9 @@ import org.junit.Test
 
 import scala.language.postfixOps
 
+/**
+  * Example on how to write unit tests for certain methods / classes
+  */
 class FunctionalTest {
 
   val lowerBound = 1

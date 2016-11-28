@@ -11,4 +11,5 @@ public class TrivialTest {
     public void emailValidator_CorrectEmailSimple_ReturnsTrue() {
         assertTrue(true);
     }
+
 }
