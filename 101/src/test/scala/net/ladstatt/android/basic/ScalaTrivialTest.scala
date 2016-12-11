@@ -14,20 +14,13 @@ class ScalaTrivialTest {
     *
     * The test will be executed.
     */
-  @Test
-  def testTrue(): Unit = assertTrue(true)
-
-  /*
-  @Test
-  def testFalse(): Unit = {
-    assertFalse(!true)
+  @Test def testThatAdditionOfAAndBWorks(): Unit = {
+    val a = 0
+    val b = 10
+    assertTrue(a + b == 10)
   }
 
-  @Test
-  def testEquals(): Unit = {
-    assertTrue(true == true)
-  }
 
-*/
+
 
 }
